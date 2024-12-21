@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common.Lib\Common.Lib.csproj" />
     <ProjectReference Include="..\Realme.Mvc\Realme.Mvc.csproj" />
   </ItemGroup>
 

@@ -36,6 +36,17 @@ namespace Realme.Mvc.Services
         {
             await _employeeRepository.DeleteAsync(id);
         }
+        public async Task<string> GetEmployeebyId(int EmpID)
+        {
+            var name = await _employeeRepository.GetEmployeebyId(EmpID);
+            return name;
+        }
+
+        public async Task<Employee> GetEmployeeDetails(int EmpID)
+        {
+            var emp = await _employeeRepository.GetEmployeeDetails(EmpID);
+            return emp;
+        }
     }
 
 }

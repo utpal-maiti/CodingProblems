@@ -7,5 +7,6 @@ namespace Realme.Mvc.Repositories
     public class AppDbContext : DbContext
     {
         public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
     }
 }

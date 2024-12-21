@@ -54,7 +54,7 @@ namespace Realme.XUnit
 
             var mockSet = new Mock<DbSet<Employee>>();
             mockSet.As<IQueryable<Employee>>().Setup(m => m.Provider).Returns(employees.Provider);
-            //mockSet.As<IQueryable<Employee>>().Setup(m => m.Provider).Returns(new TestAsyncQueryProvider<Employee>(employees.Provider));
+            mockSet.As<IQueryable<Employee>>().Setup(m => m.Provider).Returns(new TestAsyncQueryProvider<Employee>(employees.Provider));
             mockSet.As<IQueryable<Employee>>().Setup(m => m.Expression).Returns(employees.Expression);
             mockSet.As<IQueryable<Employee>>().Setup(m => m.ElementType).Returns(employees.ElementType);
             mockSet.As<IQueryable<Employee>>().Setup(m => m.GetEnumerator()).Returns(employees.GetEnumerator());

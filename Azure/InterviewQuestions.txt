@@ -1,0 +1,42 @@
+--Azure APIM—
+1. Why do we use azure apim?
+2. How do we secure Azure APIM? (Oauth, API keys, etc)
+3. What is a product in apim?
+4. What are policies? What are ths policies you have used in your project?
+5. What is versioning? How to implement the same using APIM?
+6. Have you ever done versioning in your project?
+7. Tell me the steps of importing API into Azure apim.
+8. How to monitor traffic in apim?
+9. Can we integrate function app or logic app with apim? If yes, how?
+10. What is CORS? How to handle in apim?
+11. How to troubleshoot performance issue in apim?
+12. What would you do if you needed to handle a large volume of requests that exceeds the service limits of your APIM tier?
+13. How do you handle error responses and custom error messages in Azure APIM?
+14. What steps you will perform if a client complains that api managed by apim responds slowly?
+15. How will you implement API in apim for a high traffic ecommerce website?
+16. How will you handle error responses from apim? What is custom error handling?
+17. How do you check the health of apim?
+18. What is ip-filter policy in apim?
+
+
+App Configuration
+Azure SignalR Service
+App Service
+Azure Batch
+Azure Functions
+Azure Container Instances
+Azure Container Registry
+Azure Kubernetes Service
+Azure API Management
+Azure Event Grid
+Azure Logic Apps
+Azure Service Bus
+Azure Front Door
+Azure Load Balancer
+Azure Private Link
+Azure Cognitive Services
+Azure Cognitive Search
+Azure Cosmos DB
+Azure SQL Database
+Azure Key Vault
+Azure CDN

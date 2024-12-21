@@ -11,6 +11,8 @@ namespace Realme.Mvc.Repositories
         Task AddAsync(Employee employee);
         Task UpdateAsync(Employee employee);
         Task DeleteAsync(int id);
+        Task<string> GetEmployeebyId(int EmpID);
+        Task<Employee> GetEmployeeDetails(int EmpID);
     }
 
 

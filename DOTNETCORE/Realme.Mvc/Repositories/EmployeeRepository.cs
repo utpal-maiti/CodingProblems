@@ -41,6 +41,17 @@ namespace Realme.Mvc.Repositories
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
         }
+        public async Task<string> GetEmployeebyId(int EmpID)
+        {
+            var name = await _context.Employees.Where(c => c.Id == EmpID).Select(d => d.Name).FirstOrDefaultAsync();
+            return name;
+        }
+
+        public async Task<Employee> GetEmployeeDetails(int EmpID)
+        {
+            var emp = await _context.Employees.FirstOrDefaultAsync(c => c.Id == EmpID);
+            return emp;
+        }
     }
 
 
