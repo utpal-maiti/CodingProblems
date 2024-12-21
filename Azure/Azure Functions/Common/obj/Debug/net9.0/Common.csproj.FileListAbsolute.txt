@@ -1,0 +1,13 @@
+D:\Research\CodingProblems\Azure\Azure Functions\Common\bin\Debug\net9.0\Common.deps.json
+D:\Research\CodingProblems\Azure\Azure Functions\Common\bin\Debug\net9.0\Common.dll
+D:\Research\CodingProblems\Azure\Azure Functions\Common\bin\Debug\net9.0\Common.pdb
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.AssemblyInfoInputs.cache
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.AssemblyInfo.cs
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.csproj.CoreCompileInputs.cache
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.sourcelink.json
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.dll
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\refint\Common.dll
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.pdb
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\ref\Common.dll
+D:\Research\CodingProblems\Azure\Azure Functions\Common\obj\Debug\net9.0\Common.csproj.AssemblyReference.cache
