@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace FunctionApp15
 {
-    public static class OrchestrationTriggerFunction
+    public static class DurableOrchestrationTriggerFunction
     {
         [FunctionName("Function1")]
         public static async Task<List<string>> RunOrchestrator(
